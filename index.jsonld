@@ -1,0 +1,20 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "id": "did:github:zkNotary",
+  "publicKey": [
+    {
+      "type": "RsaVerificationKey2018",
+      "id": "did:github:zkNotary#key-1",
+      "controller": "did:github:zkNotary",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3kNaogcimC8BgqgtRJdr\nF0T1UftmyD1qVOJdBSh7Ip+eyR27HwEF7XL7UOaFwH+ADw72MT2AlPqGYzLyTdoB\nX4O2fjXm4emcS3xbEu7kuDVaQcNQM6NBQj37ayT6fPqzbrVO12/6hcw82cb5aCtx\nd1gRekCHefqiPeNL6q6aGP1NTdfsMKN3sdl5n9CR5sX2wKBh72XolQn12VnlkyOe\n+HR/qGoKOG86sjta1xNVpSgdAxvqrLccplO3I81Mt/yQe9dbosmp5dzlf8OHNxWk\n7Q/4dO5lzTYj2nAJsbVxYfXeFss2tduZqqi9l+Xveu067GxgX9sT5XpGc75017U6\nIsJZp5xjoEpf1T6TgodNMe3SDRizq5f3GZtx+KmQrnwURmXEDga9nFNsbfhskUqZ\nHjeOYcFhAphj3xCWMwbrN6YBS123aZyMXT0Od63Aa4YS+hR5brG7VPzQoWWECERb\nzlr4nTw/W+f+nqHGMz6Btn9PlE+AEgF1mTtLMbroQ47y67fMSLZoMqT3z/1yBkEU\n7S2/lA4ZMANjUcau0/mYMog0phLRDrHswHyRCUxCVGUIbkxlOnGQatUDuaTSV2fC\nXqHHHdnIEXc5K7sTDLx+doaTAHezTYzGAusSEiJ5vkIEDGmkkb6ofZ1/jBTW6kcO\npGncpw0jFaqxRl9roZTt0nECAwEAAQ==\n-----END PUBLIC KEY-----\n"
+    }
+  ],
+  "authentication": [],
+  "service": [
+        {
+            "id": "MasterData",
+            "type": "MasterData",
+            "serviceEndpoint": "https://zknotary.com/md.json"
+        }
+    ]
+}
